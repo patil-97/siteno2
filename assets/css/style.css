@@ -241,3 +241,15 @@
 .endSection a{
   margin : 10px;
 }
+
+.info :nth-child(3) {
+  color:#3d599a;
+}
+
+.info :nth-child(4){
+  color:#db3a7a;
+}
+
+.info :nth-child(5){
+  color:#2f82b7;
+}
