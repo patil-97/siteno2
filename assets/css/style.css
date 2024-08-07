@@ -73,6 +73,12 @@
   font-weight: bold;
   padding: 20px 55px 20px 35px;
   line-height: 30px;
+  transition:all 0.2s ease-in-out;
+}
+
+.headings a:hover{
+  transform:scale(1.05);
+  box-shadow:2px 2px 2px 0 #fff;
 }
 
 .headings a i {
@@ -107,7 +113,7 @@
 .featureSection p {
   font-size: 22px;
   color: #3a3a3a;
-  margin-bottom:65px;
+  margin-bottom: 65px;
 }
 
 .feature1 {
@@ -158,6 +164,13 @@
   padding: 15px 20px;
   border-radius: 50px;
   background-color: #d9332d;
+  transition: all 0.2s ease;
+}
+
+.jcontent a:hover {
+  transform: scale(1.1);
+  background-color: #fff;
+  color: #d9332d;
 }
 
 .jcontent span {
@@ -187,70 +200,68 @@
   padding: 2px;
 }
 
-
-.fh2{
+.fh2 {
   font-size: 20px;
   font-weight: bold;
   color: #fff;
   margin-bottom: 30px;
 }
 
-.fh4{
-  font-size:14px;
-  font-weight:bold;
-  color:#fff;
+.fh4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
 }
 
-
-.footer-list2 span{
-  color:#fff;
-  font-size:11px;
+.footer-list2 span {
+  color: #fff;
+  font-size: 11px;
 }
 
-.fp{
-  font-size:15px;
-  color:#fff;
-  margin:25px 0;
-  width:70%;
+.fp {
+  font-size: 15px;
+  color: #fff;
+  margin: 25px 0;
+  width: 70%;
 }
 
-
-.mb-0{
-  margin-bottom:0;
+.mb-0 {
+  margin-bottom: 0;
 }
 
-.about p{
-  font-size:15px;
-  color:#fff;
+.about p {
+  font-size: 15px;
+  color: #fff;
   font-family: "Open Sans", sans-serif;
-  font-style:italic;
-  line-height:20px;
-  width:80%;
+  font-style: italic;
+  line-height: 20px;
+  width: 80%;
 }
 
-.endSection{
-  padding:50px 0;
-  background-color:#d7dedc;
+.endSection {
+  padding: 50px 0;
+  background-color: #d7dedc;
 }
 
-.endSection span, .link{
-  font-size:25px;
-  color:#000;
-  margin-left:20px;
+.endSection span,
+.link {
+  font-size: 25px;
+  color: #000;
+  margin-left: 20px;
 }
 
-.endSection a{
-  margin : 10px;
+.endSection a {
+  margin: 10px;
 }
 
 .info :nth-child(3) {
-  color:#3d599a;
+  color: #3d599a;
 }
 
-.info :nth-child(4){
-  color:#db3a7a;
+.info :nth-child(4) {
+  color: #db3a7a;
 }
 
-.info :nth-child(5){
-  color:#2f82b7;
+.info :nth-child(5) {
+  color: #2f82b7;
 }
